@@ -1,6 +1,6 @@
 # Use Case Diagram - Hotel Booking System
 
-\`\`\`mermaid
+```mermaid
 graph TB
     Customer((Customer))
     Reception((Receptionist))
@@ -22,5 +22,5 @@ graph TB
     Manager --> UC11[ตรวจสอบการยกเลิกเกินกำหนด]
 
     System --> UC12[ส่งอีเมลยืนยัน]
-    System --> UC13[แจ้งเตือนการยกเลิก]
-\`\`\`
+    System --> UC13[แจ้งเดือนการยกเลิก]
+```
