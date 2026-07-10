@@ -1,6 +1,6 @@
 # Data Model (ER Diagram) - Hotel Booking System
 
-\`\`\`mermaid
+```mermaid
 erDiagram
     CUSTOMER ||--o{ BOOKING : makes
     BOOKING ||--|| ROOM : reserves
@@ -51,4 +51,4 @@ erDiagram
         string name
         decimal price
     }
-\`\`\`
+```
